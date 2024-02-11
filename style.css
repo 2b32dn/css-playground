@@ -200,8 +200,9 @@ img {
 .flexcontainer4 .box2 {
   background: lightseagreen;
   height: 100px;
-  width: 100px;
+  /* width: 100px; */
   text-align: center;
+  flex-basis: auto;
 }
 
 .flexcontainer4 .box3 {

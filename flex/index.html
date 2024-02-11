@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>ORDER PROPERTY</h1>
+  <h4>Flex items are default to 0 in their magnitude of order. 3 has an order: -1000; 2 has an order: -2; 4 has an order: -1; and 1 has order: 0; (default)</h4>
+  <div class="flexcontainer"> 
+    <div class="box1">1</div>
+    <div class="box2">2</div>
+    <div class="box3">3</div>
+    <div class="box4">4</div>
+  </div>
+  &nbsp;
+  <h1>FLEX-GROW</h1>
+  <h4>box 4 has a flex of 2 which is two times more than the rest of the box with flex-grow: 1. Flex-grow will consume all available empty space</h4>
+  <div class="flexcontainer1"> 
+    <div class="box1">1</div>
+    <div class="box2">2</div>
+    <div class="box3">3</div>
+    <div class="box4">4</div>
+  </div>
+  &nbsp;
+  <h1>FLEX-WRAP</h1>
+  <h4>flex-wrap: nowrap; is default. flex-wrap: wrap; will add a new row so that the flex-items' width are not true (100x100) in this case.</h4>
+  <div class="flexcontainer2"> 
+    <div class="box1">1</div>
+    <div class="box2">2</div>
+    <div class="box3">3</div>
+    <div class="box4">4</div>
+    <div class="box5">5</div>
+    <div class="box6">6</div>
+  </div>
+  &nbsp;
+  <h1>FLEX-SHRINK</h1>
+  <h4>flex-shrink: 2; all 100% width flex-items</h4>
+  <div class="flexcontainer3"> 
+    <div class="box1">1</div>
+    <div class="box2">2</div>
+    <div class="box3">3</div>
+    <div class="box4">4</div>
+    <div class="box5">5</div>
+    <div class="box6">6</div>
+  </div>
+  &nbsp;
+  <h1>FLEX-BASIS</h1>
+  <h4>flex-shrink: 2; all 100% width flex-items</h4>
+  <div class="flexcontainer4"> 
+    <div class="box1">1</div>
+    <div class="box2">2</div>
+    <div class="box3">3</div>
+    <div class="box4">4</div>
+    <div class="box5">5</div>
+    <div class="box6">6</div>
+  </div>
+  &nbsp;
+  <h1>flex: 1 1 0%; = flex: 1;</h1>
+  <div class="flex-container"> 
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+  </div>
+  &nbsp;
+  <h1>flex: 2 1 0%; = flex: 2;</h1>
+  <div class="flex-container1"> 
+    <div class="one"></div>
+    <div class="two1"></div>
+    <div class="three"></div>
+  </div>
+  &nbsp;
+  <h1>flex: 1 1 1;</h1>
+  <div class="flex-container2"> 
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+  </div>
+</body>
+</html>
